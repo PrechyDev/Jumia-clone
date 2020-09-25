@@ -5,6 +5,10 @@
 body {
     background-color: #DDDBE6;
 }
+.top a {
+    font-size: 0.8rem;
+    color: #FE9900;
+}
 nav ul li a {
     font-weight: 500;
     color: black !important;
@@ -64,33 +68,37 @@ nav form .btn:hover {
 
 .categories  a{
     color: black !important;
-    font-size: 0.72rem;
+    font-size: 0.8rem;
 }
 .categories  a:hover {
     color: #FE9900 !important;
 }
 
 .section1 .carousel-inner, .section1 {
-    min-height: 40vh !important;
+    min-height: 50vh !important;
 }
 .section1 .carousel-inner img  {
-    min-height: 40vh !important;
+    min-height: 50vh !important;
+    max-height: 70vh;
 }
 
 .logos .col a {
     text-decoration: none;
     color: black !important;
-
 }
 .logos .col img {
     width: 3rem;
     height: auto;
 }
 
-.top-selling p {
-    font-size: 0.8rem;
+section a {
+    font-size: 0.9rem;
+    color: black !important;
+    text-decoration: none !important;
 }
-.top-selling .col-md-2:hover, .top-selling .col-6:hover {
-    border-radius: 10px;
-    box-shadow: 0px 0px white;
+section a p {
+    padding-top: 0.3rem;
+}
+.item:hover {
+    box-shadow: 0px 0px 5px 0px rgba(250,245,250,1);
 }
