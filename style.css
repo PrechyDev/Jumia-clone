@@ -75,10 +75,10 @@ nav form .btn:hover {
 }
 
 .section1 .carousel-inner, .section1 {
-    min-height: 50vh !important;
+    min-height: 40vh !important;
 }
 .section1 .carousel-inner img  {
-    min-height: 50vh !important;
+    min-height: 40vh !important;
     max-height: 70vh;
 }
 
