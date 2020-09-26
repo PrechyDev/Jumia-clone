@@ -36,7 +36,7 @@ nav form .btn:hover {
     outline: none;
     box-shadow:none !important;
 }
-.input-group{
+nav input-group{
     min-width: 400px;
 }
 .dropdown-menu{
@@ -75,10 +75,10 @@ nav form .btn:hover {
 }
 
 .section1 .carousel-inner, .section1 {
-    min-height: 40vh !important;
+    min-height: 30vh !important;
 }
 .section1 .carousel-inner img  {
-    min-height: 40vh !important;
+    min-height: 30vh !important;
     max-height: 70vh;
 }
 
@@ -101,4 +101,23 @@ section a p {
 }
 .item:hover {
     box-shadow: 0px 0px 5px 0px rgba(250,245,250,1);
+}
+
+footer .btn {
+    border: 1px solid white;
+    color: white;
+    font-size: 0.8rem;
+    font-weight: bold;
+}
+footer .btn:hover, footer .btn:focus {
+    border: 1px solid #f38314;
+    color: #f38314;
+}
+
+footer .input-group {
+    font-size: 0.8rem;
+    flex: 1;
+}
+.store img {
+    max-height: 2rem;
 }
