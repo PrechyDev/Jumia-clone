@@ -87,7 +87,7 @@ nav form .btn:hover {
     color: black !important;
 }
 .logos .col img {
-    width: 3rem;
+    max-width: 3rem;
     height: auto;
 }
 
